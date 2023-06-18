@@ -1,4 +1,4 @@
-function findFunction(array){
+function filterFunction(array){
     let filters = '';
     for (let index = 0; index < array.length; index++) {
         const element = array[index];
@@ -11,4 +11,4 @@ function findFunction(array){
 }
 
 let numbers = [45,14,52,3,61,9,19]
-findFunction(numbers);
+filterFunction(numbers);
