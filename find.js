@@ -1,13 +1,13 @@
 function findFunction(array){
-    let filters = '';
+    let find = '';
     for (let index = 0; index < array.length; index++) {
         const element = array[index];
-        if(element>1    ){
-            filters+=element+', '
-
+        if(element>40){
+           find=element;
+           break;
         }
     }
-    return alert(filters)
+    return alert(find)
 }
 
 let numbers = [45,14,52,3,61,9,19]
